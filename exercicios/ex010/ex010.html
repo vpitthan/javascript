@@ -14,10 +14,10 @@
     </div>
     <script>
         function Calcular(){
-            var txtv= window.document.querySelector('imput#txtvel')
+            var txtv= window.document.querySelector('#txtvel')
             var res = window.document.querySelector('div#res')
-            var vel = number(txtv.value)
-            res.innerHTML = `Sua velocidade atual é de ${vel}`
+            var vel = Number(txtv.value)
+            res.innerHTML = `Sua velocidade atual é de ${vel} km/h`
 
     }
 
